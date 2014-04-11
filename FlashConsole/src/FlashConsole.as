@@ -35,7 +35,7 @@ package
 			startup(info.content);
 		}
 
-		public static function startup(root:DisplayObject, x:Number=300, y:Number=300, width:Number=700, height:Number=300):void
+		public static function startup(root:DisplayObject, x:Number=0, y:Number=0, width:Number=700, height:Number=300):void
 		{
 			Cc.startOnStage(root, "`"); // 按"*"调出控制台 再按则关闭
 			Cc.commandLine = true;
